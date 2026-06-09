@@ -3,11 +3,15 @@ module go-bubble
 go 1.26.3
 
 require (
+	charm.land/bubbles/v2 v2.0.0
+	charm.land/bubbletea/v2 v2.0.2
+	charm.land/lipgloss/v2 v2.0.2
 	github.com/NimbleMarkets/ntcharts v0.5.1
 	github.com/aschey/bubbleprompt v0.0.0-20250219081512-6c7df261446b
 	github.com/charmbracelet/bubbles v1.0.0
 	github.com/charmbracelet/bubbletea v1.3.10
 	github.com/charmbracelet/lipgloss v1.1.0
+	github.com/charmbracelet/x/exp/charmtone v0.0.0-20260608090822-c3ad58c6c9e5
 	github.com/davecgh/go-spew v1.1.1
 	github.com/erikgeiser/promptkit v0.11.0
 	github.com/genekkion/theHermit v1.1.0
@@ -16,9 +20,6 @@ require (
 )
 
 require (
-	charm.land/bubbles/v2 v2.0.0 // indirect
-	charm.land/bubbletea/v2 v2.0.2 // indirect
-	charm.land/lipgloss/v2 v2.0.2 // indirect
 	github.com/alecthomas/chroma/v2 v2.15.0 // indirect
 	github.com/alecthomas/participle/v2 v2.1.1 // indirect
 	github.com/atotto/clipboard v0.1.4 // indirect
