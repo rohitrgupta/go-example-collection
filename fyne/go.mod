@@ -2,7 +2,10 @@ module fyne-examples
 
 go 1.26.3
 
-require fyne.io/fyne/v2 v2.7.4
+require (
+	fyne.io/fyne/v2 v2.7.4
+	github.com/go-loremipsum/loremipsum v1.1.4
+)
 
 require (
 	fyne.io/systray v1.12.1 // indirect
