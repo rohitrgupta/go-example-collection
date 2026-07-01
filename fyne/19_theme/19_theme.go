@@ -67,7 +67,7 @@ func main() {
 				break
 			}
 		}
-		fyne.CurrentApp().Settings().SetTheme(myTheme.ToFyneTheme())
+		fyne.CurrentApp().Settings().SetTheme(&MyTheme{})
 	}()
 
 	w.ShowAndRun()
